@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sneha Tripathi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sneha Tripathi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="code-card">  
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" alt="Sneha Tripathi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sneha Tripathi</h1>
+          <div class="static-txt">
+              <ul class="dynamic-txt">
+              <p class="section__text__p2\">Web Developer</p>
+                  </div>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sneha-tripathi0208'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href= 'https://github.com/Sneha2003tripathi'"
+          />
+        </div>
+      </div>
+    </section>
+    </div>    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/me.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Web Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech CSE Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Hello there! I'm a passionate web developer with a deep love for <b>HTML, CSS, and JavaScript</b>. My journey in the world of web development has been both exciting and rewarding.
+                One of the highlights of my web development journey has been my experience volunteering for the <b>IEEE website</b>. This opportunity allowed me to work and collaborate with a diverse team, and contribute to the technological advancements of our time. It was a rewarding experience that deepened my passion for web development and helped me grow both personally and professionally.I'm currently pursuing my B.Tech degree in the 3rd year, 5th semester at Mody University.
+                
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cascading style sheet</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+                <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Other Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Generative AI</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Prompt Engineering</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+        
+        
+        
+        <div class="projects">
+    <b>My Projects</b>
+            
+    <div class="image">
+        <img src="assets/port.png" alt="My Portfolio">
+        <div class="text">
+            <h1> My Portfolio</h1>
+            <div class="botex">
+                <p>
+                  With a keen eye for design, a passion for user experience, and a solid command of HTML, CSS, and JavaScript, I've crafted visually stunning and highly functional web interfaces that leave a lasting impression. My portfolio is a testament to my dedication to creating seamless, responsive, and engaging user experiences. 
+                </p>
+                <button class="link" onclick="location.href='https://github.com/alpha-metus/osinweb.git'"><b>Project Link</b></button>
+            
+            </div>
+        </div>
+    </div>
+          
+    
+            <div class="image">
+        <img src="assets/gallery vol.jpg" alt="Volume Control By hand">
+        <div class="text">
+            <h1>Volume control by hand</h1>
+            <div class="botex">
+                <p>
+                  Imagine controlling the volume of your device with a simple hand gesture. In this exciting machine learning project, I've harnessed the power of computer vision and gesture recognition to create a hands-free volume control system. With just a wave or a pinch of your hand, you can seamlessly adjust the audio output. This project not only showcases the potential of machine learning in enhancing user experiences but also offers a glimpse into the future of intuitive, gesture-based interactions with technology. It's a testament to the boundless possibilities that machine learning brings to the world of user interfaces.
+                
+                </p>
+                <button id="1" class="link" onclick="location.href='https://github.com/Sneha2003tripathi/volume'"><b>Project Link</b></button>
+            
+            </div>
+        </div>
+    </div>
+            
+       
+            
+            
+     
+            <div class="image">
+        <img src="assets/sunglass.jpg" alt="Computer Vision">
+        <div class="text">
+            <h1>Computer Vision</h1>
+            <div class="botex">
+                <p>
+                  Imagine a world where your computer can instantly recognize your face and superimpose stylish sunglasses on it in real-time. This is the essence of my machine learning project. By harnessing the power of computer vision and deep learning, I have developed a system that can detect and track your face, then seamlessly overlay virtual sunglasses to see how they'd look on you. It's a fun and innovative way to explore fashion choices, all driven by the magic of machine learning. Dive into my project to witness this fusion of technology and style.
+                </p>
+                <button class="link" onclick="location.href='https://github.com/Sneha2003tripathi/sunglasses'"><b>Project Link</b></button>
+            
+            </div>
+        </div>
+    </div>
+</div>
+        
+<img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+/>
+</section> <!-- This closing tag was missing -->
+<section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">snehatripathi246@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sneha-tripathi0208">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sneha Tripathi. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+        
+         <div class="floating-button">
+    <a href="https://wa.me/+918529180903" target="_blank" class="whatsapp-button">
+      <img src="assets/whatsapp.png" alt="WhatsApp Button" class="whatsapp-button-image">
+      <span class="whatsapp-button-text">Chat with me</span>
+    </a>
+  </div>
+  </body>
+</html>
